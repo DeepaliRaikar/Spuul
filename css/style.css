@@ -1,0 +1,260 @@
+@font-face{
+			font-family:'Raleway-light';
+			src: url("fonts/Raleway-Light.ttf");
+		}
+		@font-face{
+			font-family:'Raleway-SemiBold';
+			src: url("fonts/Raleway-SemiBold.ttf");
+		}
+		img{
+			width: 100%;
+		}
+		body{
+			font-family: "Raleway-Light";
+			background-color: #f0ecec;
+		}
+		#header{
+			background-color: #000000;
+			border-bottom: 8px solid #424242;
+		}
+		.navbar-header .navbar-brand{
+			height: 90px;
+		}
+		.navbar-header .navbar-brand img{
+			height: 100%;
+		}
+		.form-control{
+			background: transparent;
+			border: 1px solid #424242;
+			padding: 8px 15px;
+			margin-top: 30px;
+		}
+		 input::-webkit-input-placeholder {
+		 	color: #424242;
+	      }
+        input:-moz-placeholder {
+        	color: #424242;
+	      }
+        input::-moz-placeholder {
+        	color: #424242;
+	      }
+        input:-ms-input-placeholder {
+        	color: #424242;
+	      }
+		.heading{
+			font-family: "Raleway-light";
+			color: #fff;
+		}
+		.subHeading{
+			font-family: "Raleway-SemiBold";
+			font-weight: bold;
+		}
+		.moviesBanner{
+			background-color: #343534;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.text-red{
+			color: red;
+		}
+		.text-white{
+			color: #fff;
+		}
+		.spuulOnFb{
+			font-weight: bold;
+			line-height: 20px;
+		}
+		.moviesThisWeek > .row:last-child{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.spuulOnFb .row:last-child{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.movieURL{
+			text-decoration: none;
+		}
+		.movieDesc{
+			font-size: 12px;
+		}
+
+		.recentMovieItem{
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.recentMovieItem p{
+			margin: 0;
+		}
+		.recentMovieItem img{
+			width: 100%;
+		}
+		.hidden-text{
+			visibility: hidden;
+		}
+		.rightItems .row{
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.rightItems .row p{
+			line-height: 22px;
+		}
+		.rightItems h2{
+			margin-top: 10px;
+		}
+		.comingSoonMovie{
+			padding-bottom: 15px;
+			padding-right: 0;
+		}
+		.comingSoonMovie h2{
+			margin-top: 10px;
+		}
+		.no-padding{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		a.link{
+			color: red;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		footer{
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			color: #fff;
+			background-color: #000;
+		}
+		footer p{
+			margin: 0;
+		}
+
+		.movieExtras{
+			background-color: #434343;
+			
+		}
+		.movieExtras .movieExtrasLinksContainer{
+			padding-top: 15px;
+			padding-bottom: 15px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.movieExtras .movieExtrasLinksContainer > div > div:last-child{
+			padding: 0;
+		}
+		.movieExtras .movieExtrasLinks{
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+		.movieExtras li{
+			display: inline-block;
+			padding-top: 15px;	
+			padding-bottom: 15px;
+		}
+		.movieExtras li a{
+			text-transform: uppercase;
+			color: #fff;
+			text-decoration: none;
+			padding-right: 20px;
+			font-weight: bold;
+		}
+		.movieTrailers p{
+			color: #fff;
+		}
+		/*.movieTrailers div{
+			display: inline-block;
+			width: 20%;
+
+		}*/
+		.movieTrailers div img{
+			width: 100%;
+		}
+		.movieItem{
+			color: #fff;
+		}
+		.extrasHandleWrapper{
+			background-color: transparent;
+		}
+		.extrasHandle{
+			background-color: red;
+			padding: 10px 20px;
+			color: #ffffff;
+			max-width: 300px;
+			float: right;
+			/*position: absolute;*/
+		}
+		.extrasHandle p{
+			font-size: 12px;
+		}
+		.extrasHandle img{
+			width: 50px;
+			transition: all 0.2s linear;
+		}
+		.bottomVideoplayer{
+			padding: 0;
+		}
+		.wrapper{
+			position: fixed;
+			top: 64%;
+			transition: all 0.2s linear;
+			/*display: none;*/
+		}
+		.wrapper select{
+			border: none;
+			padding: 8px 35px 8px 15px;
+			color: #fff;
+			font-size: 17px;
+			text-transform: uppercase;
+			 -moz-appearance: none;
+			 -webkit-appearance: none;
+			 appearance: none;
+			 background: #5c5d5c url('../img/movie-trailor/down-arrow.png') no-repeat calc(100% - 10px) center;
+			 background-size: 10px 10px; 
+			 opacity: 0;
+			 float: right;
+			transition: opacity 0.2s linear;
+		}
+
+		.wrapper select::-ms-expand {
+		    display: none;
+		}
+		.bringToTop{
+			top: -5% !important;
+			transition: all 0.2s linear;
+		/*	position: relative;*/
+		}
+		@media only screen and (max-width: 1024px){
+			.recentMovieItem .col-sm-4{
+				width: 100%;
+			}
+
+		}
+		@media only screen and (max-width: 768px){
+			.recentMovieItem .col-xs-6{
+				width: 100%;
+			}
+
+			.wrapper select{
+				width: 100%;
+			}
+			.movieExtras .movieExtrasLinksContainer > div > div:last-child{
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+		@media only screen and (min-width: 520px) and (max-width: 768px){
+			.recentMovieItem .col-xs-6 img{
+				width: 80%;
+			}
+
+		}
+		@media only screen and (max-width: 520px){
+			.movieTrailers .col-xs-3{
+				width: 50%;
+			}
+		}
